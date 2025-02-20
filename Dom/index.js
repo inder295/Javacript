@@ -11,7 +11,7 @@ const theme=document.getElementById("theme-button");
 theme.addEventListener("click",()=>{
     
   const color=document.body.style.backgroundColor;
-  console.log(color);
+  
 
   if(!color || color=='white'){
       changeBackground("black")
@@ -21,9 +21,6 @@ theme.addEventListener("click",()=>{
     textColor('black')
     changeBackground('white')
   }
-  
-    
-    
-    
+
     
 })
