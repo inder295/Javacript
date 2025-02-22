@@ -54,6 +54,10 @@
         border-radius: 50px;
     }
 
+    .hero-div:hover{
+        box-shadow: 0 0 10px rgb(42, 116, 234);
+    }
+
     .hero div h1{
         font-size: 4rem;
         text-align: center;
@@ -68,7 +72,7 @@
 
     .hero div img {
         object-fit: cover;
-        box-shadow: 0 0 3px gray;
+       
         border-radius: 50px ;
     }
     
@@ -131,6 +135,46 @@
     .logo img{
         width: 400px;
         height: 250px;
+    }
+
+    .three-cards{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 10%;
+        padding: 20px 80px;
+        border: 1px solid black;
+        box-shadow: 0 0 10px black;
+    }
+
+    .card{
+        border: 1px solid black;
+        width: 30%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+       
+    }
+
+    .card img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card h1{
+        text-align: center;
+        padding: 5px;
+    }
+
+    .card p{
+        text-align: center;
+        padding: 5px;
+    }
+
+    @media screen and (max-width: 1024px) {
+        .three-cards{
+            flex-direction: column;
+        }
     }
 
     
@@ -196,6 +240,28 @@
 
         
 
+    </section>
+
+    <section class="three-cards">
+        
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Homi_Jehangir_Bhabha_1960s.jpg" alt="card_image">
+            <h1>Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolores amet eaque asperiores veniam explicabo necessitatibus libero aliquid iusto qui.</p>
+        </div>
+        
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToytVWmSHgfa2Xn3V5q2LZgzqo0yTKBWUBVA&s" alt="card_image">
+            <h1>Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolores amet eaque asperiores veniam explicabo necessitatibus libero aliquid iusto Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque impedit nulla architecto voluptatibus deserunt libero necessitatibus ? </p>
+        </div>
+        
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY3va8M8TeOzlYBsB3s48l-Vv-XMDjmiuj6A&s" alt="card_image">
+            <h1>Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolores amet eaque asperiores veniam explicabo necessitatibus libero aliquid iusto qui.</p>
+        </div>
+    
     </section>
     
 </body>
