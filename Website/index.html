@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;       
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 40px; 
+        background-color: rgb(20, 18, 18);
+        color: aliceblue;
+    }
+    
+    nav div ul{
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+    nav div button {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    nav div button:hover{
+        background-color: rgb(80, 77, 248);
+        color: rgb(205, 207, 209);
+    }
+
+    .hero {
+        display: flex;
+        margin: 30px;
+        color: aliceblue;
+        padding: 10px 80px;
+        justify-content: space-evenly;
+    }
+    
+    .hero div{
+        background-color: rgb(20, 18, 18) ;
+        margin: 10px;
+        border-radius: 50px;
+    }
+
+    .hero div h1{
+        font-size: 4rem;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .hero div p{
+        padding: 30px  ;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .hero div img {
+        object-fit: cover;
+        box-shadow: 0 0 3px gray;
+        border-radius: 50px ;
+    }
+    
+    .hero div img:hover{
+        transform:rotate(10deg)
+
+    }
+
+    .hero-btn{
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+
+    .hero div button{
+      padding: 10px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    
+    .learn-more{
+        background-color: rgb(57, 131, 241);
+        color: azure;
+        border: none;
+    }
+
+    .learn-more:hover{
+        background-color: rgb(136, 200, 240);
+    }
+
+    .signup{
+        color: rgb(57, 131, 241);
+        border: 2px solid rgb(57, 131, 241);
+        background-color: black;
+    }
+
+    .signup:hover{
+        background-color: rgb(57, 131, 241);
+        color: white;
+    }
+
+    
+    
+    
+    
+</style>
+<body>
+
+    <nav>
+        <div>My Logo</div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div>
+            <button>signup</button>
+            <button>login</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <img src="https://media.istockphoto.com/id/183819034/photo/two-dices.jpg?s=612x612&w=0&k=20&c=sawA-Q6tAlmzm37EiFViPCr9AT3f-PnwCM8qXrQzR2w=" alt="photo">
+        </div>
+        <div class="hero-div">
+            <h1>Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus iusto sapiente aliquam cum inventore nesciunt cupiditate? Veniam rem repudiandae, corrupti, quam numquam ab velit animi error beatae debitis delectus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor hic cumque dolore, enim totam nostrum, asperiores molestiae, eum deleniti saepe eveniet quas magnam maxime architecto aspernatur nisi eos ad fugiat obcaecati quae? Impedit ipsam mollitia consequuntur accusantium harum ipsa voluptates. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus id fugiat eos? Molestiae at qui minima quibusdam nisi magnam hic voluptas totam delectus sint eligendi quae tempora, cupiditate laudantium velit pariatur adipisci natus incidunt aliquid, doloribus impedit officia. Rem eveniet voluptatum labore facilis voluptas consequuntur repellendus praesentium? Alias, magnam voluptatem aut quia eos odio quos adipisci at earum nobis, obcaecati nostrum porro numquam laborum delectus consequuntur exercitationem eum vel? Molestiae, magnam corrupti molestias ducimus fugit natus modi enim in at voluptatum recusandae saepe rem dolorem, dolores facere repellat! Error illum sapiente rem possimus molestias molestiae ea ad impedit. Aliquid, quod.</p>
+            <div class="hero-btn">
+                <button class="learn-more">Learn More</button>
+                <button class="signup">Signup</button>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
