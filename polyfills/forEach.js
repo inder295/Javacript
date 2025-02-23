@@ -1,21 +1,30 @@
 if(!Array.prototype.myforEach){
-  Array.prototype.myforEach=function(userfn){
-
-    let arr=this;
-    for(let i=0;i<arr.length;i++){
-        userfn(arr[i],i,arr);
+    Array.prototype.myforEach=function(userfn){
+        
+        let arr=this;
+        for(let i=0;i<arr.length;i++){
+            userfn(arr[i],i,arr);
+        }
     }
-  }
 }
 
 
+const arr=[1,2,3,4,5];
+
+arr.forEach((value,index,arr)=>{
+     
+    console.log(`${value} - ${index} - ${arr}`);
+    
+})
+
+console.log(`------------------------`);
 
 
-
-
-
-
-
+arr.myforEach(function(value,index,arr){
+    
+    console.log(`value-${value} index-${index} `);
+    
+})
 
 
 
@@ -49,38 +58,6 @@ if(!Array.prototype.myforEach){
     2 - 1 - 1,2,3,4,5
     
 */
-
-
-const arr=[1,2,3,4,5];
-
-arr.forEach((value,index,arr)=>{
-     
-    //console.log(`${value} - ${index} - ${arr}`);
-    
-})
-
-console.log(`------------------------`);
-
-
-arr.myforEach(function(value,index,arr){
-    
-    console.log(`value-${value} index-${index} arr-${arr}`);
-    
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
