@@ -1,8 +1,14 @@
-const target={
+const target=[{
     name:"inderpreet singh",
     username :"inder001",
     password:"inder123"
-}
+},{
+    name :"John Doe",
+    username:"john",
+    password:"john123"
+}]
+
+
 
 const handler={
 
@@ -15,7 +21,8 @@ const handler={
     }
 }
 
-const data=new Proxy(target,handler);
+const data=new Proxy(target[4],handler);
+
 console.log(data.password);
 console.log(data.username);
 console.log(data.name);
