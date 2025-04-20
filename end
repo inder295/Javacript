@@ -1,0 +1,119 @@
+[33mcommit d2299af849c52e95bf8d6633403d73849b404467[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sun Mar 16 00:32:38 2025 +0530
+
+    login logout functionality added
+
+[33mcommit 423341c19134b159a0921a10ace247e7b988c2a9[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Mon Mar 10 00:03:24 2025 +0530
+
+    added
+
+[33mcommit f414afdc560d890b7108ef4264f89c49b3923ff6[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sun Mar 2 21:26:31 2025 +0530
+
+    added some more things
+
+[33mcommit d59dca7152b5e4293ed3af8c24e2311f90cca292[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sun Mar 2 00:03:26 2025 +0530
+
+    proxy added
+
+[33mcommit 25bae540b6b4c006ffb209958208e5cf02045fdb[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Mon Feb 24 00:18:51 2025 +0530
+
+    hoisting on var and let/const added
+
+[33mcommit 060b0f572181256902b7c356f347dd8a3cb95111[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sun Feb 23 19:25:50 2025 +0530
+
+    filter polyfill added
+
+[33mcommit 80d13c9003fc5470334cbdbacddfe14b36d2e2b6[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sun Feb 23 17:01:38 2025 +0530
+
+    map polyfill added
+
+[33mcommit 367eff61b2402921ca485ba230cbd372b74f7733[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sun Feb 23 16:28:37 2025 +0530
+
+    polyfill forEach added
+
+[33mcommit 61ef282360c665a0c1d7e3b7e0e3ce8a8b7e73cd[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sun Feb 23 01:58:59 2025 +0530
+
+    website project completed
+
+[33mcommit 6b7dc21ff56c544b49b1d8d2cf70f338c6d4c3df[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sat Feb 22 13:52:58 2025 +0530
+
+    new section added
+
+[33mcommit c5e9ecebc4edee8fc3064033ad5cd6a854adfce2[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sat Feb 22 12:37:54 2025 +0530
+
+    added nav and section
+
+[33mcommit 26efd7e168612ad8eabc0a6db2f5cc20d89d04cc[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Thu Feb 20 23:53:15 2025 +0530
+
+    todo created
+
+[33mcommit 2e4237875ed44e5b16e74c56d115e8ca2b564e71[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Thu Feb 20 00:13:30 2025 +0530
+
+    dark mode done
+
+[33mcommit a95ea2846cc51b58360e45faa6336364cdd93a58[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Wed Feb 19 23:20:51 2025 +0530
+
+    checking
+
+[33mcommit c371764904ec5cb9f91cdb069f78703a14a8bcf8[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Tue Feb 18 22:02:56 2025 +0530
+
+    dom started
+
+[33mcommit 8ef1c307d6d6ff3fa2eca5391103b7eb5e89ece2[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sat Feb 15 14:15:29 2025 +0530
+
+    shallow copy
+
+[33mcommit 311b40cc2570fca4b7492e4d23dee039454878a4[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sat Feb 15 12:33:01 2025 +0530
+
+    object basics done
+
+[33mcommit 116d08e163a4f755f37a9ec796958ec4a23b62be[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sat Feb 15 11:47:17 2025 +0530
+
+    object introduction
+
+[33mcommit 3f6bfcc653ae75379c7edc0dcf9b5b88c5c7b1ba[m[33m ([m[1;32mobjects[m[33m)[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sat Feb 15 11:24:52 2025 +0530
+
+    started
+
+[33mcommit 1e03cd77ef627e41f272ca935101a4eaa46c3d46[m
+Author: INDERPREET SINGH <inderpreetsingh2017@gmail.com>
+Date:   Sat Feb 15 11:05:05 2025 +0530
+
+    second commit
