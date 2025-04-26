@@ -191,16 +191,16 @@ export const login = async (req,res)=> {
     
     const accessToken= jwt.sign({id:user._id},process.env.ACCESSTOKEN_SECRET,{expiresIn:process.env.ACCESSTOKEN_EXPIRY});
 
-    console.log(`access token :`,accessToken);
+    
     
 
     const refreshToken=jwt.sign({id:user._id},process.env.REFRESHTOKEN_SECRET,{expiresIn:process.env.REFRESHTOKEN_EXPIRY})
 
-    console.log(`refresh token : `,refreshToken);
     
 
     //store refreshtoken in db
      user.refreshToken=refreshToken;
+     await user.save();
     
     //jwt token stores in cookie
     
@@ -252,6 +252,7 @@ export const getProfile=async(req,res)=>{
 }
 
 export const logout=async(req,res)=>{
+    
     const token =req.cookies.refreshToken;
 
     if(!token){
@@ -263,7 +264,7 @@ export const logout=async(req,res)=>{
     try {
 
         //check if user is loggedin
-
+        // refresh token ko decode kiya kiyoki id mill ske kisko logout karna hai 
         const refreshDecoded=jwt.verify(refreshToken,process.env.REFRESHTOKEN_SECRET);
         const user=await User.findOne({_id:refreshDecoded.id});
 
@@ -276,7 +277,7 @@ export const logout=async(req,res)=>{
         const cookieOptions={
             httpOnly:true
         }
-
+        //refresh token ko null kardiya 
         user.refreshToken=null;
         res.cookie("accessToken","",cookieOptions);
         res.cookie("refreshToken","",cookieOptions);

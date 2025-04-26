@@ -1,6 +1,6 @@
 import express from 'express';
 import {register,verify,login, getProfile} from '../cantrollers/user.cantroller.js'
-import isLogedin from '../middleware/islogedIn.middleware.js';
+import isLogedin from "../middleware/islogedIn.middleware.js";
 
 const router=express.Router();
 
